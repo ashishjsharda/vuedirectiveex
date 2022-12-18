@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <LoopOver />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LoopOver from "@/components/LoopOver";
 
 export default {
-  name: 'App',
+
   components: {
-    HelloWorld
+    LoopOver
   }
 }
 </script>
